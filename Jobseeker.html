@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Resume</title>
+    <link rel="stylesheet" href="styleresume.css">
+</head>
+<body>
+    <section>
+    <div class="container">
+        <h1>For JobSeekers</h1>
+        <form id="resume-form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="education">Education:</label>
+            <textarea id="education" required></textarea>
+
+            <label for="experience">Work Experience:</label>
+            <textarea id="experience" required></textarea>
+
+            <label for="job">Wanted job:</label>
+            <textarea id="job" required></textarea>
+
+            <label for="typeofjob">Type of job(Private/Government):</label>
+            <textarea id="typeofjob" required></textarea>
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="resume-output" class="resume-output"></div>
+    </div>
+
+    <script src="script.js"></script>
+    </section>
+</body>
+</html>

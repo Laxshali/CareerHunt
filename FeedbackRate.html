@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback & Rating Page</title>
+    <link rel="stylesheet" href="FeedbackRate.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <label class="logo">CAREERHUNT</label>
+            <ul>
+                <li><a href="Homenew.html">Home</a></li>
+                <li><a href="AboutNew.html">About Us</a></li>
+                <li><a href="loginNew.html">Login</a></li>
+                <li><a href="#services">Profile</a></li>
+                <li><a class="active" href="FeedbackRate.html">Feedback</a></li>
+                <li><a href="contactnew.html">ContactUs</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Feedback and Rating Section -->
+    <section id="feedback">
+        <h1>Feedback & Rating</h1>
+        
+        <!-- Rating Section -->
+        <div class="rating">
+            <h2>Rate our Service</h2>
+            <div class="stars">
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+            </div>
+        </div>
+
+        <!-- Feedback Form -->
+        <form action="#" method="post">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" rows="2" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+</body>
+</html>

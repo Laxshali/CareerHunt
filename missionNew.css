@@ -1,0 +1,141 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: montserrat;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #081530de;
+    height: 80px;
+    padding: 1rem 0;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 55px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 6px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+a.active,a:hover{
+    background: #55a6e4;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    background-color: #55a6e4;
+    border-radius: 5px;
+    
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+#mission {
+    background-color: #e0f7fa;
+    padding: 30px 30px;
+}
+
+#values {
+    background-color: #fff3e0;
+    
+}
+
+#whychoose {
+    background-color: #c8e6c9;
+    
+}
+
+/* Content Inside Sections */
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p, .content ul {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover Effect for Navigation Links */
+nav ul li a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p, .content ul {
+        font-size: 1rem;
+    }
+}

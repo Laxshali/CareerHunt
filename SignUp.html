@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="css/SignUp.css">
+</head>
+<body>
+  <script src="JS/nav_bar.js"></script>
+  <form action="php/signup.php" method="post" id="signup">
+    <h1>Sign up</h1>
+    <div class="inputbox">
+        <ion-icon name="mail-outline"></ion-icon>
+        <input type="text" name="username"required>
+        <label for="">User name</label>
+    </div>
+    <div class="inputbox">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input type="password" name="password_has" id ="password" required>
+        <label for="">Password</label>
+    </div>
+    <div class="inputbox">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input type="password" id="cpassword" required>
+        <label for="">Confirm Password</label>
+    </div>
+    <!--  -->
+    <div class="error_message" id="error_message"></div>
+     <button name="submit">Sign up</button>
+    <div class="register">
+        <p>Alredy heve sn account <a href="login.html">  Login </a></p>
+    </div>
+</form>
+
+
+
+<script src="JS/password.js"></script>
+</body>
+</html>

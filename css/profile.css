@@ -1,0 +1,53 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bedce6;
+  }
+  
+  /* Container styling */
+  .container {
+    text-align: center;
+  }
+  
+  /* Buttons container */
+  .buttons {
+    margin-top: center;
+  }
+  
+  /* General button styles */
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  /* Specific styles for Employer button */
+  .btn.employer {
+    background-color: #007BFF;
+  }
+  
+  .btn.employer:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Specific styles for Jobseeker button */
+  .btn.jobseeker {
+    background-color: #28a745;
+  }
+  
+  .btn.jobseeker:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+  }
+  

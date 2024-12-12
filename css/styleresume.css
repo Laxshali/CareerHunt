@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    /* background-image: url("../images/bg.jpg"); */
 }
 
 .container {
@@ -55,7 +56,7 @@ button:hover {
     background-color: #fafafa;
 }
 section{
-    background-image: url("../images/lap2.jpg");
+   
     background-size: 500px;
     background-blend-mode: darken;
 }

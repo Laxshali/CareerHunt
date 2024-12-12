@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Seeker Registration</title>
     <link rel="stylesheet" href="css/jobstyle.css">
-    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/stylecommon.css">
 </head>
 <body>
+  <header>
     <nav>
         <label class="logo">CAREERHUNT</label>
-        <ul>
+    
+            <!-- <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="AboutNew.html">About Us</a></li>
             <li><a href="loginNew.html">Login</a></li>
             <li><a class="active" href="Jobseeker.html">Profile</a></li>
             <li><a href="FeedbackRate.html">Feedback</a></li>
             <li><a href="contactnew.html">Contact us</a></li>
-        </ul>
+        </ul> -->
     </nav>
+</header>
 
     <div class="container">
         <h2>Job Seeker Registration</h2>
         <form action="#" method="POST">
-            <!-- Personal Information -->
+            
             <div class="form-group">
                 <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" required>
@@ -37,7 +40,7 @@
                 <input type="tel" id="phone" name="phone" required>
             </div>
             
-            <!-- Qualifications -->
+            
             <div class="form-group">
                 <label for="qualification">Highest Qualification:</label>
                 <select id="qualification" name="qualification" required>
@@ -58,7 +61,6 @@
                 <textarea id="skills" name="skills" rows="4" placeholder="List your skills here..." required></textarea>
             </div>
             
-            <!-- Submit Button -->
             <button type="submit">Register</button>
         </form>
     </div>

@@ -1,13 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+    background-color: #bedce6;
+}
 header {
     background-color: #081530de;
     height: 80px;
+    width: 100%;
     padding: 1rem 0;
 }
 
 label.logo{
     color: white;
     font-size: 35px;
-    line-height: 55px;
+    line-height: 35px;
     padding: 0 100px;
     font-weight: bold;
 }
@@ -24,13 +35,14 @@ nav ul li {
 }
 
 nav ul li a {
+
     color: #fff;
     text-decoration: none;
     font-size: 17px;
     padding: 6px 13px;
-    border-radius: 3px;
+    border-radius: 5px;
     text-transform: uppercase;
-    line-height: 50px;
+    /* line-height: ; */
 }
 
 a.active,a:hover{

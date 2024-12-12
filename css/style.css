@@ -115,6 +115,6 @@ a.active,a:hover{
 }
 section{
     background-image: url('../images/bg.jpg');
-    background-size: 1200px;
+    background-size: cover;
     height: calc(100vh - 80px);
 }

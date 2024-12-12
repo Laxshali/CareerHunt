@@ -3,44 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Input Resume</title>
+    <title>Interactive Resume Builder</title>
     <link rel="stylesheet" href="css/styleresume.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #555;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        .resume-output {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #eef;
+            border-radius: 8px;
+        }
+
+        .resume-output h2 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
 </head>
-<body >
+<body>
     <section>
-    <div class="container">
-        <h1>For JobSeekers</h1>
-        <form id="resume-form">
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" required>
+        <div class="container">
+            <h1>Resume Builder</h1>
+            <form id="resume-form">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
 
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" required>
 
-            <label for="education">Education:</label>
-            <textarea id="education" required></textarea>
+                <label for="education">Education:</label>
+                <textarea id="education" required></textarea>
 
-            <label for="experience">Work Experience:</label>
-            <textarea id="experience" required></textarea>
+                <label for="experience">Work Experience:</label>
+                <textarea id="experience" required></textarea>
 
-            <label for="job">Wanted job:</label>
-            <textarea id="job" required></textarea>
+                <label for="job">Desired Job:</label>
+                <textarea id="job" required></textarea>
 
-            <label for="typeofjob">Type of job(Private/Government):</label>
-            <textarea id="typeofjob" required></textarea>
+                <label for="typeofjob">Job Type (Private/Government):</label>
+                <textarea id="typeofjob" required></textarea>
 
-            <label for="skills">Skills:</label>
-            <textarea id="skills" required></textarea>
+                <label for="skills">Skills:</label>
+                <textarea id="skills" required></textarea>
 
-            <button type="submit">Submit</button>
-        </form>
-        <div id="resume-output" class="resume-output"></div>
-    </div>
+                <button type="submit">Submit</button>
+            </form>
 
-    <script src="script.js"></script>
+            <div id="resume-output" class="resume-output" style="display:none;">
+                <h2>Your Resume</h2>
+                <p><strong>Full Name:</strong> <span id="output-fullname"></span></p>
+                <p><strong>Email:</strong> <span id="output-email"></span></p>
+                <p><strong>Phone:</strong> <span id="output-phone"></span></p>
+                <p><strong>Education:</strong> <span id="output-education"></span></p>
+                <p><strong>Work Experience:</strong> <span id="output-experience"></span></p>
+                <p><strong>Desired Job:</strong> <span id="output-job"></span></p>
+                <p><strong>Job Type:</strong> <span id="output-typeofjob"></span></p>
+                <p><strong>Skills:</strong> <span id="output-skills"></span></p>
+            </div>
+        </div>
     </section>
+
+    <script>
+        const form = document.getElementById('resume-form');
+        const resumeOutput = document.getElementById('resume-output');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from refreshing the page
+
+            document.getElementById('output-fullname').innerText = document.getElementById('fullname').value;
+            document.getElementById('output-email').innerText = document.getElementById('email').value;
+            document.getElementById('output-phone').innerText = document.getElementById('phone').value;
+            document.getElementById('output-education').innerText = document.getElementById('education').value;
+            document.getElementById('output-experience').innerText = document.getElementById('experience').value;
+            document.getElementById('output-job').innerText = document.getElementById('job').value;
+            document.getElementById('output-typeofjob').innerText = document.getElementById('typeofjob').value;
+            document.getElementById('output-skills').innerText = document.getElementById('skills').value;
+
+            resumeOutput.style.display = 'block'; // Show the resume output
+        });
+    </script>
 </body>
 </html>

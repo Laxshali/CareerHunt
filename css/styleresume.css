@@ -57,7 +57,7 @@ button:hover {
 }
 section{
    
-    background-size: 500px;
+    background-size: cover;
     background-blend-mode: darken;
 }
 

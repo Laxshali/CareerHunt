@@ -9,7 +9,7 @@ body {
 align-items: center;
 justify-content: center;
 min-height: 100vh;
-background-image: url("../images/Job3.jpg") ;
+background-image: url("../images/lap3.jpg") ;
 background-size: cover;
 
 }
@@ -28,19 +28,14 @@ text-align: center;
 margin:auto;
 margin-top:50px;
 
-
-
-
 }   
-nav{
+/* nav{ 
 padding: 0%;
 margin: 0px;
 display: bolck;
 position: block;
 
-
-
-}
+}*/
 
 
 section {

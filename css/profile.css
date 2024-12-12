@@ -1,22 +1,12 @@
 
-body {
-    margin: 0;
-    font-family: montserrat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh;  */
-    background-color: #bedce6;
-  }
-  
-  
-  .container {
+/* Styles specific to the Profile page */
+.container {
     text-align: center;
+    padding: 20px;
   }
-  
   
   .buttons {
-    margin-top: center;
+    margin-top: 20px;
   }
   
   .btn {
@@ -40,7 +30,7 @@ body {
     transform: scale(1.05);
   }
   
-  /*Jobseeker button */
+  /* Jobseeker button */
   .btn.jobseeker {
     background-color: #28a745;
   }

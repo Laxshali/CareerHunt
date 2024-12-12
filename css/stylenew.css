@@ -51,7 +51,7 @@
     background: #55a6e4;
   }
   
-  /* Responsive menu styles */
+  
   .checkbtn {
     font-size: 30px;
     color: white;
@@ -95,7 +95,6 @@
     }
   }
   
-  /* Section to prevent overlapping */
   section {
     height: calc(100vh - 80px);
   }

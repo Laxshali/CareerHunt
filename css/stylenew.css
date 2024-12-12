@@ -7,7 +7,11 @@
 }
 
 body{
+    
     font-family: montserrat;
+    background-size: 1200px;
+    height: calc(100vh - 80px);
+    background-size: cover;
 }
 nav{
     background: #081530de;
@@ -105,8 +109,8 @@ a.active,a:hover{
         left: 0;
     }
 }
-section{
+/* section{ 
     background: url("work2.jpg");
     background-size: 1400px;
     height: calc(100vh - 80px);
-}
+}*/

@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 /* Section Styling */
 section {
-    padding: 50px 20px;
+    padding: 40px 20px;
     text-align: center;
     animation: fadeIn 2s ease-out;
 }

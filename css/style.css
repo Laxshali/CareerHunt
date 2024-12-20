@@ -22,14 +22,14 @@ nav{
     height: 80px;
     width: 100%;
 }
-.logo-container { 
+/* .logo-container { 
     display: flex;
     align-items: left;
     height: 30px;
-    /* width: ; */
+    width: ; 
 } 
 
-/* .log {
+.log {
     width: 10px;
     height: 10px;
 }  */

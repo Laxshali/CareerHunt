@@ -12,16 +12,16 @@
     <body>
 
         <div class="wrapper">
-            <form action="">
+            <form action="php/login.php" method="post">
                 <h1>Login</h1>
 
                 <div class="input-box">
-                    <input type="email" placeholder="Email Id" required>
+                    <input type="email" placeholder="Email Id" name="user" required>
                     <i class='bx bxs-user'></i>
                 </div>
 
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Password" name="password" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
 
@@ -30,7 +30,7 @@
                     <a href="#">Forgot password?</a>
                 </div>
 
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn" name="login">Login</button>
 
                 <div class="register-link">
                     <p>Don't have an account? <a href="SignUp.html">Signup</a></p>

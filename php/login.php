@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
         if (password_verify($password, $hashedPassword)) {
            // session_start(); // Start the session
             
-                header("Location: ../index.html");
+                header("Location: ../Profile.html");
                 exit; // Ensure no further code runs after redirection
         } else {
             $error = "Invalid username or password.";

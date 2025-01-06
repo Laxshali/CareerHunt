@@ -36,16 +36,8 @@ input, textarea {
 
 button {
     background-color: #5b8ed1;
-    color: white;
-    padding: 10px;
-    border: none;
     border-radius: 10px;
-    cursor: pointer;
-    width: 20%;
-}
-
-button:hover {
-    background-color: #5b8ed1;
+    
 }
 
 .resume-output {

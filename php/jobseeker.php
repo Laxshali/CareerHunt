@@ -3,7 +3,7 @@
 	function AddData($connect,$fullname,$email,$gender,$phone_no,$qualification,$experience,$skills){
 		try {            
 		
-			$sql = "INSERT INTO jobseeker VALUES('$fullname','$email','$gender','$phone_no','$qualification','$experience',$skills)";
+			$sql = "INSERT INTO jobseeker VALUES('$fullname','$email','$gender','$phone_no','$qualification','$experience','$skills')";
 			
 			$result = mysqli_query($connect,$sql);
 			if ($result) {

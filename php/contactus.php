@@ -11,7 +11,7 @@
 			} else {
 				die("Error ".mysqli_error($connect));
 			}
-            header('Location: ../contactnew.html');
+            header('Location: ../contactnew.php');
             exit;
 		} catch (Exception $e) {
 			die($e->getMessage());

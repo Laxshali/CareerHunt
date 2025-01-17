@@ -17,14 +17,14 @@ if (isset($_POST['login'])) {
         if (password_verify($password, $hashedPassword)) {
            // session_start(); // Start the session
             
-                header("Location: ../Profile.html");
+                header("Location: ../Profile.php");
                 exit; // Ensure no further code runs after redirection
         } else {
             $error = "Invalid username or password.";
         }
     }
     $connect->close(); // Close the database connection
-    header("Location: ../login.html?error=" . urlencode($error));
+    header("Location: ../login.php?error=" . urlencode($error));
     exit;
 }
 ?>

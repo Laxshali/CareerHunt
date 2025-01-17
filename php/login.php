@@ -5,25 +5,25 @@ if (isset($_POST['login'])) {
     $username = $_POST["user"];
     $password = $_POST["password"];
     
-    // Prepare the SQL query to fetch the username and hashed password
+   
     $sql = "SELECT Mail,Password FROM user WHERE Mail = '$username'";
     $result = $connect->query($sql);
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        $hashedPassword = $row["Password"]; // Fetch the hashed password
+        $hashedPassword = $row["Password"]; 
 
-        // Verify the password
+       
         if (password_verify($password, $hashedPassword)) {
-           // session_start(); // Start the session
+           // session_start(); 
             
                 header("Location: ../Profile.php");
-                exit; // Ensure no further code runs after redirection
+                exit; 
         } else {
             $error = "Invalid username or password.";
         }
     }
-    $connect->close(); // Close the database connection
+    $connect->close(); 
     header("Location: ../login.php?error=" . urlencode($error));
     exit;
 }

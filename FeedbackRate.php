@@ -40,7 +40,7 @@
         </div> -->
 
         
-        <form action="php/feedback.php" method="post">
+        <form action="php/feedback.php" method="POST">
             
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>

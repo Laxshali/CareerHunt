@@ -1,9 +1,9 @@
 <?php
 	require_once 'dbconf.php';
-	function AddData($connect,$name,$email,$message){
+	function AddData($connect,$name,$email,$feedback){
 		try {            
 		
-			$sql = "INSERT INTO contact VALUES('$name','$email','$message')";
+			$sql = "INSERT INTO feedback VALUES('$name','$email','$feedback')";
 			
 			$result = mysqli_query($connect,$sql);
 			if ($result) {
@@ -21,9 +21,9 @@
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		$name=$_POST['name'];
 		$email=$_POST['email'];
-		$message=$_POST['message'];
+		$feedback=$_POST['message'];
 		
-		AddData($connect,$name,$email,$message);
+		AddData($connect,$name,$email,$feedback);
 
 	}
 	

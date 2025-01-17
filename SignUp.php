@@ -39,7 +39,7 @@
 
      
     <div class="register-link">
-        <p>Already have an account? <a href="loginNew.html">  Login </a></p>
+        <p>Already have an account? <a href="loginNew.php">  Login </a></p>
     </div>
 
 </form>

@@ -13,22 +13,22 @@
         <nav>
             <label class="logo">CAREERHUNT</label>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="AboutNew.html">About Us</a></li>
-                <li><a href="loginNew.html">Login</a></li>
-                <li><a href="Profile.html">Profile</a></li>
-                <li><a class="active" href="FeedbackRate.html">Feedback</a></li>
-                <li><a href="contactnew.html">ContactUs</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="AboutNew.php">About Us</a></li>
+                <li><a href="loginNew.php">Login</a></li>
+                <li><a href="Profile.php">Profile</a></li>
+                <li><a class="active" href="FeedbackRate.php">Feedback</a></li>
+                <li><a href="contactnew.php">ContactUs</a></li>
                 
             </ul>
         </nav>
     </header>
 
-    <!-- Feedback and Rating Section -->
+    
     <section id="feedback">
         <h1>Feedback & Rating</h1>
         
-        <!-- Rating Section -->
+       
         <div class="rating">
             <h2>Rate our Service</h2>
             <div class="stars">
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <!-- Feedback Form -->
+        
         <form action="#" method="post">
             
             <label for="name">Name:</label>

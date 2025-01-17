@@ -14,11 +14,11 @@
         <label class="logo">CAREERHUNT</label>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="AboutNew.html">About Us</a></li>
-            <li><a href="loginNew.html">Login</a></li>
-            <li><a href="warn.html">Profile</a></li>
-            <li><a href="warn.html">Feedback</a></li>
-            <li><a href="warn.html">Contact us</a></li>
+            <li><a class="active" href="AboutNew.php">About Us</a></li>
+            <li><a href="loginNew.php">Login</a></li>
+            <li><a href="warn.php">Profile</a></li>
+            <li><a href="warn.php">Feedback</a></li>
+            <li><a href="warn.php">Contact us</a></li>
         </ul>
     </nav>
 
@@ -30,7 +30,7 @@
             <div class="hero-content">
                 <h2>Welcome to CareerHunt!</h2>
                 <p>Your CareerHunt platform for finding your dream job! We are dedicated to connecting job seekers with employers in a seamless and efficient manner.</p>
-                <button class="cta-button"><a href="MissionNew.html">Learn More</button>
+                <button class="cta-button"><a href="MissionNew.php">Learn More</button>
             </div>
             <div class="hero-image">
                 <img src="images/Job3.jpg">

@@ -19,7 +19,7 @@
 <body bgcolor="#bedce6">
     <center>
         <p style="font-size: 60px; margin-top: 20%;">Please login your account to see other pages</p>
-        <button><a href="loginNew.html">Login</a></button>
+        <button><a href="loginNew.php">Login</a></button>
     </center>
 </body>
 </html>

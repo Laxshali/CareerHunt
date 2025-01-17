@@ -16,12 +16,12 @@
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">&#9776;</label>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="AboutNew.html">About Us</a></li>
-            <li><a href="loginNew.html">Login</a></li>
-            <li><a class="active" href="Profile.html">Profile</a></li>
-            <li><a href="FeedbackRate.html">Feedback</a></li>
-            <li><a href="contactnew.html">Contact us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="AboutNew.php">About Us</a></li>
+            <li><a href="loginNew.php">Login</a></li>
+            <li><a class="active" href="Profile.php">Profile</a></li>
+            <li><a href="FeedbackRate.php">Feedback</a></li>
+            <li><a href="contactnew.php">Contact us</a></li>
         </ul>
     </nav>
 </header>
@@ -30,8 +30,8 @@
         <h1>Welcome to Our Platform</h1>
         <p>Please choose your role:</p>
         <div class="buttons">
-            <a href="Employer.html" class="btn employer">Employer</a>
-            <a href="Jobseeker.html" class="btn jobseeker">Jobseeker</a>
+            <a href="Employer.php" class="btn employer">Employer</a>
+            <a href="Jobseeker.php" class="btn jobseeker">Jobseeker</a>
          </div>
     </div>
 </body>

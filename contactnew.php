@@ -13,12 +13,12 @@
         <nav>
             <label class="logo">CAREERHUNT</label>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="AboutNew.html">About Us</a></li>
-                <li><a href="loginNew.html">Login</a></li>
-                <li><a href="Profile.html">Profile</a></li>
-                <li><a href="FeedbackRate.html">Feedback</a></li>
-                <li><a class="active" href="contactnew.html">Contact us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="AboutNew.php">About Us</a></li>
+                <li><a href="loginNew.php">Login</a></li>
+                <li><a href="Profile.php">Profile</a></li>
+                <li><a href="FeedbackRate.php">Feedback</a></li>
+                <li><a class="active" href="contactnew.php">Contact us</a></li>
             </ul>
         </nav>
         <section class="contact">

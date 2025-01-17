@@ -1,17 +1,14 @@
-/* Reset default margins and paddings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: montserrat;
     background-color: #bedce6;
 }
-
-/* Navigation Bar */
 
 header {
     background-color: #081530de;
@@ -59,10 +56,9 @@ nav ul li a:hover {
     
 }
 
-/* Feedback Section */
 #feedback {
     background-color: #fff;
-    margin: 30px auto;
+    margin: 30px;
     padding: 30px;
     width: 35%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -74,7 +70,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Rating Section */
+/* Rating Section 
 .rating {
     margin-bottom: 30px;
 }
@@ -102,9 +98,9 @@ nav ul li a:hover {
 
 .stars input[type="radio"]:checked ~ label {
     color: #ff9f00;
-}
+}*/
 
-/* Feedback Form */
+
 form {
     display: flex;
     flex-direction: column;

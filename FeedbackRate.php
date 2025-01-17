@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- Navigation Bar -->
     <header>
         <nav>
             <label class="logo">CAREERHUNT</label>
@@ -26,10 +25,10 @@
 
     
     <section id="feedback">
-        <h1>Feedback & Rating</h1>
+        <h1>Feedback</h1>
         
        
-        <div class="rating">
+        <!-- <div class="rating">
             <h2>Rate our Service</h2>
             <div class="stars">
                 <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
@@ -38,10 +37,10 @@
                 <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
                 <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
             </div>
-        </div>
+        </div> -->
 
         
-        <form action="#" method="post">
+        <form action="php/feedback.php" method="post">
             
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -49,7 +48,7 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="message">Feedback:</label>
+            <label for="message">Message:</label>
             <textarea id="message" name="message" rows="2" required></textarea>
 
             <button type="submit">Submit Feedback</button>
